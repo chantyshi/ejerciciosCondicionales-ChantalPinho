@@ -153,3 +153,17 @@ else {
 }})
 
 
+
+let buscarNotas = document.getElementById('buscarNotas')
+
+  buscarNotas.addEventListener('input',(e) => { console.log(e.target.value); 
+  let NotasFiltradas = notas.filter(nota => nota.titulo.toLowerCase().includes(e.target.value))
+  if(e.target.value != ''){
+    limpiarDivContenedor();
+
+    pintarTarjetas(NotasFiltradas, ContenedorDeNotas)}
+  else{ 
+    limpiarDivContenedor();
+
+    pintarTarjetas(notas, ContenedorDeNotas)}})
+  
