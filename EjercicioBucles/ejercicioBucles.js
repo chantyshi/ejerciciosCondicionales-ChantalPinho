@@ -181,15 +181,15 @@ for(let props of misMascotas){
 // // 12. Dado un array de 10 numeros, realizar un programa que imprima por pantalla el
 // // numero mas chico.
 
-// let diezNumeros = [4,5,255,230,512,64,27,48,29,10]
-// let numeroMasChico = diezNumeros[0]
+ let diezNumeros = [4,5,255,230,512,64,27,48,29,10]
+ let numeroMasChico = diezNumeros[0]
 
-//  for(let numero of diezNumeros){
-//     if(numero < numeroMasGrande)
-//      numeroMasChico = numero
-// }
+ for(let numero of diezNumeros){
+    if(numero < numeroMasGrande)
+     numeroMasChico = numero
+ }
 
-// console.log(numeroMasChico)
+console.log(numeroMasChico)
 
 // 13. Realizar un programa que permita jugar a piedra papel o tijeras, se debera poder
 // ingresar los nombres de 2 jugadores. En el bucle del juego se debera pedir 1 a 1 las
@@ -221,15 +221,4 @@ while (true) {
 
 
 
-
-
-// if(jugador1 === 'Papel' && jugador2 === 'Piedra' || jugador1 === 'Piedra' && jugador2 === 'Tijera' || jugador1 === 'Tijera' && jugador2 === 'Papel'){
-//     console.log('El jugador 1 gana!')}
-//     else if
-//         (jugador2 === 'Papel' && jugador1 === 'Piedra' || jugador2 === 'Piedra' && jugador1 === 'Tijera' || jugador2 === 'Tijera' && jugador1 === 'Papel'){ 
-//         console.log('El jugador 2 gana!')}
-//     else if (jugador1 === jugador2 ){
-//         console.log('Empate!')
-//     }else {
-//        console.log('Ingreso incorrecto! Esta haciendo trampa')
-//     }
+//14 No llegué a tiempo u.u
